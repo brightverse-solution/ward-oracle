@@ -1,0 +1,18 @@
+{
+  "name": "ward-oracle",
+  "version": "0.1.0",
+  "description": "WARD 🛡️ — Security/QA Oracle, Workshop specialist",
+  "type": "module",
+  "private": true,
+  "author": "Palm <noppakun.palm@outlook.com>",
+  "license": "MIT",
+  "engines": { "bun": ">=1.1.0" },
+  "scripts": {
+    "lint": "biome check .",
+    "format": "biome format --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "typescript": "^5.6.0"
+  }
+}
